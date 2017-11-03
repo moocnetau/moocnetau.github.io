@@ -362,7 +362,7 @@
       <div class="col-12 col-sm-10 col-md-8 mx-auto">
         <div class="mt-6 p-5 bg-white rounded-2 box-shadow-extra-large border">
           <h2 class="mb-3 f2-light lh-condensed">Contact MOOC Professional Services</h2>
-          <form id="eloquaForm" name="ContactUs_ServicesForm" method="post" action="http://www.mooc.net.au/maintenance.html" novalidate="">
+          <form id="eloquaForm" name="ContactUs_ServicesForm" method="get" action="http://www.mooc.net.au/maintenance.html" novalidate="">
             <input value="ContactUs_ServicesForm" type="hidden" name="elqFormName">
             <input value="88570519" type="hidden" name="elqSiteId">
             <input name="elqCampaignId" type="hidden">
@@ -392,14 +392,6 @@
             </div>
 
             <button type="submit" class="btn btn-blue btn-large f4">Submit</button>
-            <input id="field4" type="hidden" name="country" value="">
-            <input id="field5" type="hidden" name="subdivision" value="">
-            <input type="hidden" id="field9" name="lastfield" value="1509612950"><input id="field9" type="hidden" name="lastfield">
-            <input id="field6" type="hidden" name="city" value="">
-            <input type="hidden" name="elqCustomerGUID" value="563e058b-b717-49ce-9bd0-094f422ddbcf">
-            <input type="hidden" name="elqCookieWrite" value="0">
-            <input id="field7" type="hidden" name="sfcampaignid" value="2018q2-ww-Services-Contact">
-            <input id="field8" type="hidden" name="source" value="/" "="">
             </form>
           </div>
         </div>
@@ -463,15 +455,6 @@
 <script src="./index_files/eloqua-form.js"></script>
 <script src="./index_files/scroll.min.js"></script>
 <script src="./index_files/script.js"></script>
-<script>
-  (function() {
-    var dt = Math.floor(Date.now() / 1000),
-    submit = document.getElementById("field9"),
-    out = "<input type='hidden' id='field9' name='lastfield' value='" + dt + "' />";
-
-    submit.insertAdjacentHTML('beforebegin', out);
-  })();
-</script>
 
 
 
