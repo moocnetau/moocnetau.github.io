@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://services.github.com/on-demand/intro-to-github/ -->
+<html lang="en" class=" js "><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="./Introduction to GitHub - On Demand Training_files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+
+  
+  <link href="https://services.github.com/on-demand/feed.xml" type="application/atom+xml" rel="alternate" title="On Demand Training Feed">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./Introduction to GitHub - On Demand Training_files/css(1)" rel="stylesheet">
+  <link rel="stylesheet" href="./Introduction to GitHub - On Demand Training_files/main.css">
+  
+  
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Introduction to GitHub - On Demand Training</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="On Demand Training">
+<meta property="og:title" content="Introduction to GitHub">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+  <script type="text/javascript" async="" src="./Introduction to GitHub - On Demand Training_files/ga.js"></script><script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+<script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/marker.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/overlay.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./Introduction to GitHub - On Demand Training_files/QuotaService.RecordEvent"></script></head>
+
+
+  <body style="min-height: 100vh;" class="d-flex flex-column">
+    
+
+
+<div class="bg-blue-darker py-3 f5 flex-none text-white">
+  <header class="container-lg p-responsive site-header js-site-header d-block clearfix">
+    <a class="no-underline text-inherit text-bold d-flex flex-items-center lh-condensed-ultra float-left" href="https://services.github.com/on-demand/">
+      <div class="mr-3"><svg class="octicon octicon-mark-github" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>mark-github</title>
+<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill-rule="evenodd"></path></svg></div>
+      On Demand Training
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-site-header-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg"><title>three-bars</title>
+<path d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z" fill="#000" fill-rule="evenodd"></path></svg>
+    </button>
+
+    <nav class="site-header-menu float-none float-md-right py-1 mt-4 mt-md-0">
+      <ul class="d-block d-md-flex list-style-none">
+        
+          <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/on-demand/resources/">Resources</a></li>
+        
+          <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/on-demand/resources/learning-path/">Learning Path</a></li>
+        
+          <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/#upcoming-events">Upcoming Events</a></li>
+        
+          <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/customized-training">Customized Training</a></li>
+        
+        <!-- <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="/on-demand/resources">Resources</a></li>
+        <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="/on-demand/resources/learning-path">Learning Path</a></li>
+        <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/#upcoming-events">Upcoming Events</a></li>
+        <li class="ml-0 ml-md-3"><a class="text-inherit py-3 py-md-0 d-block" href="https://services.github.com/customized-training">Customized Training</a></li> -->
+      </ul>
+    </nav>
+  </header>
+</div>
+
+
+    <main class="site-content">
+      <div id="main" role="main">
+  <div class="bg-blue-dark text-white py-2 py-md-4">
+  <div class="container-lg p-responsive my-4 text-center">
+    <h1 itemprop="headline" class="alt-h1">
+      
+        Introduction to GitHub
+
+      
+    </h1>
+    
+    
+    
+    <p class="float-right">
+  
+  
+    
+  
+    
+    <a href="https://services.github.com/on-demand/intro-to-github/es/" role="button" class="btn btn-sm btn-outline es">español</a>
+    
+  
+</p>
+
+  </div>
+  
+
+</div>
+
+
+  <div class="container-lg mx-auto">
+    <div class="d-flex flex-items-start flex-wrap gutter-md py-6 p-responsive">
+      <div class="col-12 col-md-3">
+  <aside class="px-1 py-2 px-md-2 rounded-2 border mb-4 mb-md-0">
+    
+    
+    
+    <nav>
+      
+      <ul class="list-style-none">
+        
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/" class="filter-item ws-normal px-3  py-2 selected">Introduction to GitHub</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/create-github-account" class="filter-item ws-normal px-3  py-2 ">Create a GitHub Account</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/join-class-repository" class="filter-item ws-normal px-3  py-2 ">Join the Class Repository</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/explore-github-repository" class="filter-item ws-normal px-3  py-2 ">Explore the GitHub Repository</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/use-github-flow" class="filter-item ws-normal px-3  py-2 ">Use GitHub Flow</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/create-a-branch" class="filter-item ws-normal px-3  py-2 ">Create a Branch</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/find-your-coordinates" class="filter-item ws-normal px-3  py-2 ">Find Your Coordinates</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/work-on-github" class="filter-item ws-normal px-3  py-2 ">Work on GitHub</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/create-pull-request" class="filter-item ws-normal px-3  py-2 ">Create a Pull Request</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/collaborate-on-github" class="filter-item ws-normal px-3  py-2 ">Collaborate on GitHub</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/edit-files-on-github" class="filter-item ws-normal px-3  py-2 ">Edit Files on GitHub</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/merge-pull-request" class="filter-item ws-normal px-3  py-2 ">Merge Your Pull Request</a>
+
+            
+          </li>
+
+          
+          
+    
+          <li>
+            <a href="https://services.github.com/on-demand/intro-to-github/you-completed-github-flow" class="filter-item ws-normal px-3 mb-0 py-2 ">You Completed the GitHub Flow</a>
+
+            
+          </li>
+
+          
+        </ul>
+    </nav>
+  </aside>
+</div>
+
+
+      <article class="page col-12 col-md-9" itemscope="" itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="headline" content="Introduction to GitHub">
+        
+        
+        
+
+        <section class="page__content" itemprop="text">
+          <div class="mb-6 markdown-body">
+            
+              <h2 id="were-glad-youre-here-octocat">We’re Glad You’re Here <img class="emoji" title=":octocat:" alt=":octocat:" src="./Introduction to GitHub - On Demand Training_files/octocat.png" height="20" width="20" align="absmiddle">
+</h2>
+
+<p>This course is designed to get you started using GitHub in less than an hour.<br>
+If you need help along the way, check out the step-by-step video below in the “Show Me How” section.</p>
+
+<p><strong>In this course, you will learn how to</strong>:</p>
+
+<ul>
+  <li>Use the GitHub.com website to complete the GitHub workflow</li>
+  <li>Collaborate with new friends on a fun project</li>
+  <li>Add your pin to the map!</li>
+</ul>
+
+<div id="map" style="height: 400px; position: relative; overflow: hidden;" class="width-full my-3"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 65px; top: -27px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 65px; top: 229px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 321px; top: -27px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 321px; top: 229px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -191px; top: -27px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -191px; top: 229px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 577px; top: -27px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 577px; top: 229px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 65px; top: -27px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 65px; top: 229px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 321px; top: -27px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 321px; top: 229px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -191px; top: -27px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -191px; top: 229px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 577px; top: -27px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 577px; top: 229px;"><canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div></div></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 65px; top: -27px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 65px; top: 229px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 321px; top: 229px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -191px; top: -27px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -191px; top: 229px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 577px; top: 229px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 321px; top: -27px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 577px; top: -27px; transition: opacity 200ms ease-out;"><img draggable="false" alt="" src="./Introduction to GitHub - On Demand Training_files/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div></div><div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: -6.05399px; left: 351.95px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">147</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 199.534px; left: 423.671px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">42</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 111.214px; left: 380.919px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">45</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 82.7189px; left: 668.849px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">55</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 24.664px; left: 295.263px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">458</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 84.5429px; left: -41.004px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">483</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 181.405px; left: 602.972px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">81</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 50.1747px; left: 350.875px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">150</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 99.8022px; left: 30.0918px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">517</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 310.242px; left: 713.365px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">66</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 138.786px; left: 510.28px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">239</div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 184.9px; left: 76.1296px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">56</div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 102.669px; left: 618.54px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">157</div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 272.174px; left: 152.831px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">66</div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 69.7564px; left: 70.092px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">449</div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m2.png&quot;); background-position: 0px 0px; height: 56px; line-height: 56px; width: 56px; text-align: center; cursor: pointer; top: 81.1574px; left: 511.72px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">64</div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 73.0472px; left: 280.204px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">124</div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 42.3861px; left: -58.5757px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">142</div><div></div><div></div><div></div><div></div><div></div><div></div><div style="background-image: url(&quot;/on-demand/images/cluster/m3.png&quot;); background-position: 0px 0px; height: 66px; line-height: 66px; width: 66px; text-align: center; cursor: pointer; top: 66.8658px; left: 30.6946px; color: black; position: absolute; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold;">148</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=10,15&amp;z=2&amp;t=p&amp;hl=en-GB&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/google_white5_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 214px; top: 110px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 71px; bottom: 0px; width: 87px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2017</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-GB_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" style="background: none; border: 0px; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@10,15,2z/data=!5m1!1e4!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="55" style="margin: 10px; user-select: none; position: absolute; bottom: 69px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 0px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img alt="" src="./Introduction to GitHub - On Demand Training_files/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img alt="" src="./Introduction to GitHub - On Demand Training_files/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div></div></div>
+
+<p><strong>Are you ready?</strong> Click the <strong>Continue</strong> button below to see what’s next.</p>
+
+            
+          </div>
+
+          
+
+          
+
+          
+
+          
+            <details class="flash mb-2">
+              <summary>Show me how</summary>
+              
+                
+                  
+                  <hr class="border-blue-light">
+                  <iframe width="560" height="315" src="./Introduction to GitHub - On Demand Training_files/rXjtDj4mqIc.html" frameborder="0" allowfullscreen=""></iframe>
+
+                
+              
+            </details>
+          
+
+          
+
+          
+            <details class="flash mb-2 flash-warn">
+              <summary>Tell me why</summary>
+              <hr class="border-yellow">
+              
+              <h2 id="what-is-github">What is GitHub?</h2>
+
+<iframe width="560" height="315" src="./Introduction to GitHub - On Demand Training_files/w3jLJU7DT5E.html" frameborder="0" allowfullscreen=""></iframe>
+
+<p>We are glad you asked! Many people stumble onto GitHub through one of the millions of Open Source projects it holds or because their employer or professor is using it. Why do these projects use GitHub?</p>
+
+<p><strong>At its heart, GitHub is a collaboration platform.</strong></p>
+
+<p>People around the world use GitHub to collaborate on projects ranging from software to policy documents and cookbooks. You can share your projects with the world and invite your friends to help, or you can keep your projects private and still have easy access wherever you are.</p>
+
+<p><strong>GitHub is also a powerful version control tool.</strong></p>
+
+<p>While you are collaborating, GitHub uses Git (open source, distributed version control software) to keep track of every change made to your project.</p>
+
+<p><strong>GitHub is so much more.</strong></p>
+
+<p>GitHub is used to build some of the most powerful applications in the world. It can do a lot of really cool things, but this class is going to focus on getting you started with the basics. We will dig in to the rest later!</p>
+
+              
+            </details>
+          
+
+          
+          <div class="flash mb-2 flash-success">
+            <div class="float-left p-1 mr-3"><a href="https://github.com/githubschool/open-enrollment-classes-introduction-to-github/issues/new?title=I%20need%20help&amp;body=Describe%20what%20you%20need%20help%20with%20here.&amp;labels=Help%20Wanted" class="btn btn-primary">Get Help</a></div>
+            <div class="overflow-hidden">Stuck? Open an issue in the repository for this class and mention <strong>@githubteacher</strong> for help from one of the GitHub trainers!</div>
+          </div>
+          
+
+          
+            <a href="https://services.github.com/on-demand/intro-to-github/create-github-account" class="btn">Continue</a>
+          
+          
+
+          
+
+        </section>
+
+        <footer class="page__meta">
+          
+          
+
+
+
+
+
+          
+        </footer>
+
+
+        
+
+        
+
+
+
+        
+      </article>
+    </div>
+  </div>
+
+  
+  
+</div>
+
+    </main>
+
+    <footer class="bg-gray-light border-top py-4 text-gray text-center mt-6 flex-none">
+  <span aria-label="Made with love by GitHub and friends">
+    <a href="https://services.github.com/on-demand/community/" class="text-gray-dark mb-2">Made with <img class="emoji" title=":heart:" alt=":heart:" src="./Introduction to GitHub - On Demand Training_files/2764.png" height="20" width="20" align="absmiddle"> by <img class="emoji" title=":octocat:" alt=":octocat:" src="./Introduction to GitHub - On Demand Training_files/octocat.png" height="20" width="20" align="absmiddle">s and friends</a>
+  </span>  
+  <div class="d-flex flex-justify-center text-uppercase text-bold my-1">
+    <a href="https://services.github.com/on-demand/feed.xml" class="d-flex flex-items-center text-gray text-uppercase mr-4"><div class="d-flex mr-1"><svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg"><title>rss</title>
+<path d="M2 13H0v-2c1.11 0 2 .89 2 2zM0 3v1a9 9 0 0 1 9 9h1C10 7.48 5.52 3 0 3zm0 4v1c2.75 0 5 2.25 5 5h1c0-3.31-2.69-6-6-6z" fill="#000" fill-rule="evenodd"></path></svg></div> Feed</a>
+    <a href="https://services.github.com/on-demand/community" class="d-flex flex-items-center text-gray text-uppercase"><div class="d-flex mr-1"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>organization</title>
+<path d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4" fill="#221F20" fill-rule="evenodd"></path></svg></div> Community</a>
+  </div>
+  
+  <p>© 2017 GitHub, Inc. Powered by <a href="http://jekyllrb.com/" rel="nofollow" class="text-gray-dark">Jekyll</a> &amp; <a href="https://github.com/primer/primer-css" rel="nofollow" class="text-gray-dark">Primer</a>.</p>
+</footer>
+
+    <script type="text/javascript" src="./Introduction to GitHub - On Demand Training_files/jquery-2.1.1.js"></script>
+
+<script src="./Introduction to GitHub - On Demand Training_files/script.js"></script>
+<script src="./Introduction to GitHub - On Demand Training_files/mapsAPI.js"></script>
+
+<script type="text/javascript" src="./Introduction to GitHub - On Demand Training_files/github_contribution.js"></script>
+
+<script>
+$('#find-location').click( function()
+{
+  $.getJSON('https://freegeoip.net/json/')
+     .done (function(location)
+     {
+          $('#location-box').show();
+          $('#country').html(location.country_name);
+          $('#country_code').html(location.country_code);
+          $('#region').html(location.region_name);
+          $('#region_code').html(location.region_code);
+          $('#city').html(location.city);
+          $('#latitude').html(location.latitude);
+          $('#longitude').html(location.longitude);
+          $('#timezone').html(location.time_zone);
+          $('#ip').html(location.ip);
+     });
+} );
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+    $('#github_chart_1').github_graph( {
+      data: 'https://githubschool.github.io/on-demand-github-pages/createDirectory.json' ,
+      texts: ['site added to our directory','sites added to our directory'],
+      link: 'this is the link'
+    });
+
+});
+</script>
+
+<script src="./Introduction to GitHub - On Demand Training_files/markerclusterer.js"></script>
+<script async="" defer="" src="./Introduction to GitHub - On Demand Training_files/js"></script>
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-80557370-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+  
+
+<div class="svg-tip svg-tip-one-line" style="display:none;"></div></body></html>
